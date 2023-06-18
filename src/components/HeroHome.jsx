@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const Hero = () => {
+const HeroHome = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -16,7 +16,7 @@ const Hero = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className="bg-[#e9f4ff] w-full h-96 md:flex items-center gap-10 relative"
+        className="bg-[#e9f4ff] w-full h-96 md:flex items-center gap-10 relative mt-32"
       >
         <div className="flex flex-col justify-between leading pt-14 leading-relaxed md:ml-16 gap-5 items-center md:items-start">
           <h2 className="text-4xl text-center md:text-start font-bold leading leading-normal">
@@ -51,4 +51,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroHome;

@@ -77,7 +77,7 @@ const Navbar = () => {
               )}
             </button>
             {isMobileMenuOpen && (
-              <div className="absolute left-0 top-24 z-10 bg-white w-full">
+              <div className="absolute left-0 top-20 z-20 bg-white w-full">
                 <ul className="flex flex-col gap-20 text-center">
                   {navLinks.map(({ path, href }) => {
                     const isActive = pathname.endsWith(href);

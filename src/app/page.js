@@ -1,10 +1,10 @@
-import Hero from "@/components/Hero";
+import HeroHome from "@/components/HeroHome";
 
 const HomePage = () => {
   return (
     <main>
       {/* Hero section */}
-      <Hero></Hero>
+      <HeroHome></HeroHome>
     </main>
   );
 };
