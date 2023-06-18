@@ -36,8 +36,8 @@ const Navbar = () => {
 
   return (
     <nav className="border border-b-2 relative">
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <div className="px-4 sm:px-6 lg:px-8">
+        <div className="flex mx-10 items-center justify-between h-20">
           <div className="flex items-center">
             <Link href="/">
               <Image src="/zet.svg" width={85} height={50} alt="Zet Logo" />
@@ -77,8 +77,8 @@ const Navbar = () => {
               )}
             </button>
             {isMobileMenuOpen && (
-              <div className="absolute left-44 top-24">
-                <ul className="flex flex-col gap-10 text-center">
+              <div className="absolute left-0 top-24 z-10 bg-white w-full">
+                <ul className="flex flex-col gap-20 text-center">
                   {navLinks.map(({ path, href }) => {
                     const isActive = pathname.endsWith(href);
                     return (
@@ -96,6 +96,20 @@ const Navbar = () => {
                     <Link href="/download" className="inactive">
                       Download ZET
                     </Link>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://play.google.com/store/apps/details?id=in.onecode.app"
+                    >
+                      <Image
+                        className="mx-auto"
+                        src="/googleplay.svg"
+                        alt="Google Play Download"
+                        width={120}
+                        height={35}
+                      ></Image>
+                    </a>
                   </li>
                 </ul>
               </div>
