@@ -1,6 +1,8 @@
+import AboutUsFooter from "@/components/AboutPage/AboutUsFooter";
 import GotFeatured from "@/components/AboutPage/GotFeatured";
 import HeroAbout from "@/components/AboutPage/HeroAbout";
 import HorizontalTimeline from "@/components/AboutPage/HorizontalTimeline";
+import MeetOurFounders from "@/components/AboutPage/MeetOurFounders";
 import MeetTheInvestors from "@/components/AboutPage/MeetTheInvestors";
 
 const AboutPage = () => {
@@ -10,6 +12,8 @@ const AboutPage = () => {
       <HorizontalTimeline></HorizontalTimeline>
       <GotFeatured></GotFeatured>
       <MeetTheInvestors></MeetTheInvestors>
+      <MeetOurFounders></MeetOurFounders>
+      <AboutUsFooter></AboutUsFooter>
     </div>
   );
 };
