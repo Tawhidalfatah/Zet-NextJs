@@ -10,21 +10,3 @@
 .inactive {
   @apply text-black text-xl px-3 py-2 rounded-md
 }
-
-.image-container {
-  width: 100%;
-  overflow-x: scroll;
-}
-
-.image {
-  height: auto;
-  width: auto;
-  margin-top: 76px;
-}
-
-@media (max-width: 768px) {
-  .image {
-    width: 250%;
-
-  }
-}

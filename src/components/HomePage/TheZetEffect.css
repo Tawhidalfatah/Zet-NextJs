@@ -1,0 +1,59 @@
+.swiper-horizontal>.swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+.swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    width: 100%;
+
+    height: var(--swiper-pagination-progressbar-size, 4px);
+    left: 0;
+    top: 53px !important;
+    z-index: 10 !important;
+}
+
+.swiper-pagination-progressbar-fill {
+    background: #fff !important;
+    border-radius: 24px;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.zet-bg {
+
+    background-color: rgb(20, 92, 197);
+
+    clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
+}
+
+.zet-bg2 {
+    clip-path: polygon(0px 30%, 100% 0%, 100% 70%, 0px 100%);
+    background-color: rgb(65, 127, 218);
+}
