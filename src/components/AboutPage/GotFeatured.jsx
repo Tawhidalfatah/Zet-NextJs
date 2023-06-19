@@ -3,10 +3,12 @@ import SectionContainer from "@/components/Shared/SectionContainer";
 
 const GotFeatured = () => {
   return (
-    <div className="my-16 bg-[#fafbfe] h-96 w-full">
+    <div className="my-16 bg-[#fafbfe] h-full md:h-96 w-full pb-10">
       <SectionContainer>
-        <h1 className="text-4xl text-start font-bold pt-16">Got Featured</h1>
-        <div className="flex justify-center gap-5 my-5">
+        <h1 className="text-4xl text-center md:text-start font-bold py-16 md:pb-0  md:pt-16">
+          Got Featured
+        </h1>
+        <div className="flex flex-col items-center md:flex-row md:justify-center gap-5 my-5">
           <Image
             width={300}
             height={200}
