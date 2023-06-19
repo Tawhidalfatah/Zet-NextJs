@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import SectionContainer from "./SectionContainer";
+import SectionContainer from "../Shared/SectionContainer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
