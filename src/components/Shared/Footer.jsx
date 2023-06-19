@@ -1,15 +1,19 @@
 import Image from "next/image";
 import SectionContainer from "./SectionContainer";
-import { AiOutlineMail } from "react-icons/ai";
-import { BiPhone } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="mt-2 relative h-full">
-      <Image src="/AboutUs.webp" alt="About Us" width={2000} height={532} />
+    <div className="mt-14 md:mt-2 relative h-full">
+      <Image
+        className="scale-y-[1.75] md:scale-100"
+        src="/AboutUs.webp"
+        alt="About Us"
+        width={2000}
+        height={532}
+      />
 
       <SectionContainer>
-        <div className="absolute top-28 left-48 md:top-1/4 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-9/12">
+        <div className="absolute top-20 left-48 md:top-1/4 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-9/12">
           <div className="md:mt-20 md:mb-10">
             <Image
               className="md:w-32 w-12"
@@ -21,21 +25,21 @@ const Footer = () => {
           </div>
           <hr />
 
-          <div className="flex justify-center md:justify-between w-full font-medium text-white my-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 font-medium text-white my-5">
             <div className="flex flex-col gap-1 md:gap-5">
               <h3 className="text-sm md:text-xl">Company</h3>
-              <p>About Us</p>
-              <p> Partner with us</p>
-              <p>Blog</p>
+              <p className="text-xs md:text-base">About Us</p>
+              <p className="text-xs md:text-base"> Partner with us</p>
+              <p className="text-xs md:text-base">Blog</p>
             </div>
             <div className="flex flex-col gap-1 md:gap-5">
               <h3 className="text-sm md:text-xl">Legal</h3>
-              <p>Privacy Policy</p>
-              <p>Terms of Use</p>
+              <p className="text-xs md:text-base">Privacy Policy</p>
+              <p className="text-xs md:text-base">Terms of Use</p>
             </div>
-            <div className="flex flex-col items-center gap-1 md:gap-5">
+            <div className="flex flex-col items-center gap-0 md:gap-5">
               <h3 className="text-sm md:text-xl">Contact</h3>
-              <p className="flex items-center gap-2">
+              <p className="flex items-center text-xs md:text-base gap-2">
                 <Image
                   src="/Email.webp"
                   alt="Email Icon"
@@ -44,7 +48,7 @@ const Footer = () => {
                 />
                 hi@zetapp.in
               </p>
-              <p className="flex items-center ">
+              <p className="flex items-center text-xs md:text-base ">
                 <Image
                   src="/Phone.webp"
                   alt="Phone Icon"
@@ -56,7 +60,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-1 md:gap-5">
               <h3 className="text-sm md:text-xl">Social</h3>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-0 md:gap-3">
                 <Image
                   src="/linkedin.svg"
                   alt="linkedin"
