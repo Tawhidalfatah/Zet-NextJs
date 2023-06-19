@@ -3,9 +3,9 @@ import SectionContainer from "./SectionContainer";
 
 const Footer = () => {
   return (
-    <div className="mt-14 md:mt-2 relative h-full">
+    <div className="mt-48 md:mt-2 relative h-full">
       <Image
-        className="scale-y-[1.75] md:scale-100"
+        className="scale-y-[3.5] md:scale-100"
         src="/AboutUs.webp"
         alt="About Us"
         width={2000}
