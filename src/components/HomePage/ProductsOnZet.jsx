@@ -16,7 +16,7 @@ const ProductsOnZet = () => {
       <SectionContainer>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-16 mx-10">
           <Tilt scale={1.05} transitionSpeed={1000}>
-            <div className="w-[740] h-[270] bg-[#EDFFEC] group hover:bg-white flex   items-center  p-10 rounded-lg">
+            <div className="w-[740] h-[270] bg-[#EDFFEC] group hover:bg-white flex md:flex-row flex-col   items-center  p-10 rounded-lg">
               <Image
                 className="filter grayscale group-hover:filter-none "
                 src="/CC.webp"
@@ -34,7 +34,7 @@ const ProductsOnZet = () => {
             </div>
           </Tilt>
           <Tilt scale={1.05} transitionSpeed={1000}>
-            <div className="w-[740] h-[270] bg-[#FFF1CA] group hover:bg-white flex items-center  p-10 rounded-lg">
+            <div className="w-[740] h-[270] bg-[#FFF1CA] group hover:bg-white flex md:flex-row flex-col   items-center  p-10 rounded-lg">
               <Image
                 className="filter grayscale group-hover:filter-none"
                 src="/Loan.webp"
@@ -52,7 +52,7 @@ const ProductsOnZet = () => {
             </div>
           </Tilt>
           <Tilt scale={1.05} transitionSpeed={1000}>
-            <div className="w-[740] h-[270] bg-[#FFEEE7]  group hover:bg-white flex items-center  p-10 rounded-lg">
+            <div className="w-[740] h-[270] bg-[#FFEEE7]  group hover:bg-white flex md:flex-row flex-col   items-center  p-10 rounded-lg">
               <Image
                 className="filter grayscale group-hover:filter-none"
                 src="/BNPL.webp"
@@ -70,7 +70,7 @@ const ProductsOnZet = () => {
             </div>
           </Tilt>
           <Tilt scale={1.05} transitionSpeed={1000}>
-            <div className="w-[740] h-[270] bg-[#FFF5E7] group hover:bg-white flex items-center p-10 rounded-lg">
+            <div className="w-[740] h-[270] bg-[#FFF5E7] group hover:bg-white flex md:flex-row flex-col   items-center p-10 rounded-lg">
               <Image
                 className="filter grayscale group-hover:filter-none"
                 src="/AccountSave.webp"

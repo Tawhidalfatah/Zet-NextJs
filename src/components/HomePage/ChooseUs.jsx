@@ -1,5 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import SectionContainer from "../Shared/SectionContainer";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const benefits = [
   {
     path: "/zero_investment.svg",
@@ -34,6 +39,9 @@ const benefits = [
 ];
 
 const ChooseUs = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <SectionContainer>
       <div className="flex items-center my-10 pb-32">
@@ -61,7 +69,11 @@ const ChooseUs = () => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 ml-2 md:ml-28 gap-10">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="grid grid-cols-2 md:grid-cols-3 ml-2 md:ml-28 gap-10"
+        >
           {benefits.map(({ path, heading, desc }) => (
             <div key={path}>
               <Image
