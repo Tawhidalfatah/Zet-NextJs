@@ -40,10 +40,10 @@ const TopBrands = () => {
             <Image width={135} height={40} src="/BOB.webp" alt="BOB" />
           </div>
           <div className="border rounded-md mx-10 p-5">
-            <Image width={135} height={40} src="/icici.webp" alt="icici" />
+            <Image width={135} height={40} src="/Icici.webp" alt="icici" />
           </div>
           <div className="border rounded-md mx-10 p-5">
-            <Image width={135} height={40} src="/idfc.webp" alt="idfc" />
+            <Image width={135} height={40} src="/Idfc.webp" alt="idfc" />
           </div>
           <div className="border rounded-md mx-10 p-5">
             <Image
