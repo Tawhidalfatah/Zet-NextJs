@@ -1,3 +1,4 @@
+import ChooseUs from "@/components/HomePage/ChooseUs";
 import HeroHome from "@/components/HomePage/HeroHome";
 import ProductsOnZet from "@/components/HomePage/ProductsOnZet";
 import TheZetEffect from "@/components/HomePage/TheZetEffect";
@@ -11,6 +12,7 @@ const HomePage = () => {
       <TopBrands></TopBrands>
       <ProductsOnZet></ProductsOnZet>
       <TheZetEffect></TheZetEffect>
+      <ChooseUs></ChooseUs>
     </main>
   );
 };
