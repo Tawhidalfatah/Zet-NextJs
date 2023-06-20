@@ -1,5 +1,4 @@
 import ChooseUs from "@/components/HomePage/ChooseUs";
-import DownloadApp from "@/components/HomePage/DownloadApp";
 
 import HeroHome from "@/components/HomePage/HeroHome";
 import ProductsOnZet from "@/components/HomePage/ProductsOnZet";
@@ -14,7 +13,6 @@ const HomePage = () => {
       <ProductsOnZet></ProductsOnZet>
       <TheZetEffect></TheZetEffect>
       <ChooseUs></ChooseUs>
-      <DownloadApp></DownloadApp>
     </main>
   );
 };
